@@ -129,7 +129,7 @@ description: 七星剑 — 七步结构化业务开发流程。当用户使用 /
 ### 4.1 确定文档路径
 
 - 目录：`docs/plan/YYYY-MM-DD-{需求概要}/`
-- 文件：`YYYYMMDD-{需求概要}.md`
+- 文件：`{需求概要}.md`
 - 需求概要用简短中文，如 `欠费通知重构`、`页面通知始终发送`。
 
 ### 4.2 代码核实（写入前必须）
@@ -321,7 +321,7 @@ gitnexus_detect_changes({scope: "unstaged"})
    确认改动范围符合预期。
 3. **提交代码**：`feat/fix/refactor/docs: 简要描述本次改动`
 4. **提交计划文档**：`docs: 补充{需求概要}计划文档`
-   - 文档路径：`docs/plan/YYYY-MM-DD-{需求概要}/YYYYMMDD-{需求概要}.md`
+   - 文档路径：`docs/plan/YYYY-MM-DD-{需求概要}/{需求概要}.md`
    - 确保文档中的任务拆解表格已更新完成标记（✅）
 5. 流程结束。
 
